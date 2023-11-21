@@ -1,9 +1,9 @@
-![image](https://github.com/dragmaster019/Rello_Assignment/assets/83837160/f21f882a-28f3-4d9a-95b1-d39390b57af8)# Rello_Assignment
-Quetion paper generator 
+# Rello_Assignment
+Question paper generator 
 
-The main task is generate the algorithm for question paper generator. I have made this application on java.
+The main task is to generate the algorithm for the question paper generator. I have made this application on Java.
 
-Set Up Guide- 
+Set-Up Guide- 
 
 - download the raw file.
 - unzip it and run it on Intellij or esclipe
@@ -12,12 +12,37 @@ Set Up Guide-
 - Enter your Username and password and connect to DB
 - Run the application.
 
-Guide for test the application - 
-- After successfully connection to the port
-- Go to post man
-- make a get req call with url localhost:8089/generate
+Guide for testing the application - 
+- After successfully connecting to the port
+- Go to Postman
+- make a get req call with URL localhost:8089/generate
 
 - ![image](https://github.com/dragmaster019/Rello_Assignment/assets/83837160/2a1067b5-dd3b-4b36-b118-be8c27c11c22)
+
+  This is the demo JSON format of data.
+
+  The main logic is here
+
+  ![image](https://github.com/dragmaster019/Rello_Assignment/assets/83837160/f4e68e57-0324-4e29-ae08-5c3d6965291e)
+
+  I have used Collection. shuffle java library what it does is mainly shuffle the list randomly.
+
+  ![image](https://github.com/dragmaster019/Rello_Assignment/assets/83837160/b0c28b9d-6cf4-4d8c-a9f3-b9aea4422950)
+
+  Here is the flow of the application
+
+  ![image](https://github.com/dragmaster019/Rello_Assignment/assets/83837160/b359cda6-6322-4e4a-87c5-df14705fdcc1)
+
+  I have maintained the error handling as well if the percentage is not up to handle it should hit the try block
+  ![image](https://github.com/dragmaster019/Rello_Assignment/assets/83837160/3c62ba0d-ab02-4cd2-a2f1-3249be05aab7)
+
+  and shows An error has occurred
+  ![image](https://github.com/dragmaster019/Rello_Assignment/assets/83837160/150488e4-5e92-47d0-abff-e4b3b60e15bc)
+
+
+
+
+
 
 
   
